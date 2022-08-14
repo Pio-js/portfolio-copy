@@ -1,23 +1,44 @@
-import logo from './logo.svg';
+import { useState, useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import useViewport from './components/useViewport';
+import Navbar from './components/Navbar';
+import Tech from './pages/Tech';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import language from './data/language.json';
 import './App.css';
 
 function App() {
+
+  const [orientation, setOrientation] = useState()
+  const [lang, setLang] = useState('de');
+  const [data, setData] = useState(language['de']);
+
+  const width = useViewport();
+  const breakpoint = 800;
+
+  useEffect(() => {
+    width < breakpoint ? setOrientation('portrait') : setOrientation('landscape');
+  }, [width, breakpoint]);
+
+  useEffect(() => {
+    console.log(lang);
+    setData(language[lang]);
+  }, [lang])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {orientation === 'portrait' && <Navbar orientation={orientation} lang={lang} setLang={setLang} />}
+      <main>
+        {orientation === 'landscape' && <div id='sidebar'><Navbar orientation={orientation} lang={lang} setLang={setLang} /></div>}
+        <div id='content'>
+          <Routes>
+            <Route index element = {<About lang={lang} data={data}/>} />
+            <Route path="tech" element = {<Tech lang={lang} data={data}/>} />
+            <Route path="projects" element = {<Projects lang={lang} data={data}/>} />
+          </Routes>
+        </div>
+      </main>
     </div>
   );
 }

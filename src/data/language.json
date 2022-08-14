@@ -1,0 +1,17 @@
+{
+    "it": {
+        "About": "about in italiano",
+        "Tech": "tech in italiano",
+        "Projects": "projects in italiano"
+    },
+    "de": {
+        "About": "about auf deutch",
+        "Tech": "tech auf deutch",
+        "Projects": "projects auf deutch"
+    },
+    "en": {
+        "About": "about in english",
+        "Tech": "tech in english",
+        "Projects": "projects in english"
+    }
+}

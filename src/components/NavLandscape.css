@@ -1,0 +1,26 @@
+#sidebar-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar-content > h1 {
+    color: white;
+    text-align: center;
+}
+
+.sidebar-image {
+    width: 100%;
+    background-color: coral;
+    border-bottom: 3px solid white;
+}
+
+#linkedin {
+    width: 60px;
+    height: 60px;
+    background-image: url("../../public/images/in.png");
+}
+
+.sidebar-link-img {
+    width: 40px;
+    height: 40px;
+}
