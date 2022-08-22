@@ -6,6 +6,7 @@ import Tech from './pages/Tech';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import language from './data/language.json';
+import Contact from './pages/Contact';
 import './App.css';
 
 function App() {
@@ -33,9 +34,10 @@ function App() {
         {orientation === 'landscape' && <div id='sidebar'><Navbar orientation={orientation} lang={lang} setLang={setLang} /></div>}
         <div id='content'>
           <Routes>
-            <Route index element = {<About lang={lang} data={data}/>} />
+            <Route index element = {<About orientation={orientation} lang={lang} data={data}/>} />
             <Route path="tech" element = {<Tech lang={lang} data={data}/>} />
             <Route path="projects" element = {<Projects lang={lang} data={data}/>} />
+            <Route path="contact" element = {<Contact lang={lang} data={data}/>} />
           </Routes>
         </div>
       </main>

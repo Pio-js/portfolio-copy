@@ -1,26 +1,41 @@
 #sidebar-content {
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 #sidebar-content > h1 {
-    color: white;
+    font-family: 'Rye', cursive;
+    font-size: 3em;
     text-align: center;
+    letter-spacing: 3px;
+    color: rgb(55, 10, 10);
 }
 
 .sidebar-image {
     width: 100%;
-    background-color: coral;
-    border-bottom: 3px solid white;
+    /* background-color: coral; */
+    border-bottom: 3px solid rgb(55, 10, 10);;
 }
 
-#linkedin {
-    width: 60px;
-    height: 60px;
-    background-image: url("../../public/images/in.png");
+#sidebar-menu {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -40px;
 }
 
-.sidebar-link-img {
-    width: 40px;
-    height: 40px;
+#sidebar-menu > h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Averia Libre', cursive;
+    color: rgb(55, 10, 10);
+}
+
+#sidebar-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
