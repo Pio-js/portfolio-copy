@@ -7,20 +7,73 @@
     box-sizing: border-box;
 }
 
+.nav-portrait {
+    position: absolute;
+    height: 94vh;
+    top: 6vh;
+    display: flex;
+    align-items: center;
+    background-image: url('../../public/images/old-paper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
 .nav-buttons {
-    color: white;
     text-decoration: none;
     text-align: center;
     font-size: 1.5em;
     padding: 10px;
-    border-bottom: 1px solid white;
+    font-family: 'Averia Libre', cursive;
+    color: rgb(55, 10, 10);
 }
 
-.nav-buttons:hover {
+.nav-portrait > .nav-buttons {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.nav-portrait > .nav-active {
+    background-color: rgb(55, 10, 10);
+    color: white;
+}
+
+/* .nav-landscape > .nav-buttons {
+    border-bottom: 1px solid white;
+} */
+
+.nav-landscape > .nav-buttons:hover {
     background-color: blue;
 }
 
-.nav-active {
-    background-color: white;
-    color: cornflowerblue;
+.nav-landscape > .nav-active {
+    background-color: rgba(55, 10, 10, 0.6);
+    color: white;
 }
+
+@-webkit-keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }

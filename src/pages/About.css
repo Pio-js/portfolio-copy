@@ -1,0 +1,16 @@
+#about {
+    width: 100%;
+}
+
+#about > p {
+    font-size: 1.2em;
+}
+
+.portrait-about-img {
+    width: 40%;
+    min-width: 250px;
+}
+
+.landscape-about-img {
+    width: 100%;
+}

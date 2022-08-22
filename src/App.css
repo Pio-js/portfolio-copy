@@ -15,20 +15,23 @@ main {
 #sidebar {
   width: 300px;
   min-width: 300px;
-  background-color: cornflowerblue;
+  background-image: url('../public/images/old-paper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: cornflowerblue; */
 }
 
 #content {
   width: calc(100% - 320px);
   background-color: rgb(235, 235, 235);
+  padding: 30px;
+  box-sizing: border-box;
 }
 
 @media (orientation: portrait) and (max-width: 800px) {
-  main {
-    height: 94vh;
-  }
 
   #content {
     width: 100%;
+    margin-top: 6vh;
   }
 }

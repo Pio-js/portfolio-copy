@@ -1,17 +1,47 @@
 {
     "it": {
-        "About": "about in italiano",
-        "Tech": "tech in italiano",
-        "Projects": "projects in italiano"
+        "About": {
+            "title": "Ciao! il mio nome e' Pio e sono uno sviluppatore web Full Stack.",
+            "content": "Sono italiano e ho vissuto in Italia fino ad alcuni anni fa. Negli ultimi anni di permanenza nel Bel Paese ho fatto esperienza sviluppando siti web per alcune attivita', aziende e associazioni, utilizzando il framework Wordpress.\n\nAd un certo punto della mia esistenza ho deciso di cambiare Paese per allargare i miei orizzonti, entrando in contatto con nuove realta' e altre culture. Da allora risiedo a Berlino.\n\nDopo alcuni anni di assestamento e dopo aver appreso la lingua locale, ho finalmente deciso di tornare a creare siti web, cosa che mi appassiona molto.\n\nCio' che mi piace di piu' e' trovare soluzioni nello sviluppo di applicazioni web, analizzando i dati e realizzando le strutture.\n\nSebbene in passato ho lavorato anche a composizioni grafiche, non sono un designer, ma posso comunque creare mockups e tradurli in HTML e CSS."
+        },
+        "Tech": {
+            "title": "Le mie competenze",
+            "content":"Alcuni anni fa ho imparato da autodidatta a creare templates per Wordpress, usando semplicemente HTML e CSS.\n\nA Berlino ho frequentato la scuola Digital Career Institute, apprendendo nuove tecnologie per sviluppare siti web.\n\nDurante il corso di Full Stack Web Developer con focus MERN Stack, oltre ad approfondire le mie conoscenze in HTML e CSS, ho imparato JavaScript, React JS, Node JS, Express e MongoDB.\n\nMi piace lavorare con React JS e sviluppare componenti che possono essere riutilizzati per filtrare dati e creare pagine web."
+        },
+        "Projects": "projects in italiano",
+        "Contact": {
+            "title": "Contattami!",
+            "content": "Per qualsiasi informazione non esitare a contattarmi."
+        }
     },
     "de": {
-        "About": "about auf deutch",
-        "Tech": "tech auf deutch",
-        "Projects": "projects auf deutch"
+        "About": {
+            "title": "Hallo! Mein Name ist Pio und ich bin ein Full Stack-Webentwickler.",
+            "content": "Ich bin Italiener und habe bis vor einigen Jahren in Italien gelebt. In den letzten Jahren meines Aufenthalts in Bel Paese sammelte ich Erfahrungen bei der Entwicklung von Websites für einige Geschäfte, Unternehmen und Vereine, mit dem Wordpress-Framework.\n\nAn einem bestimmten Punkt in meinem Leben entschied ich mich, das Land zu wechseln, um meinen Horizont zu erweitern und mit neuen Realitäten und anderen Kulturen in Kontakt zu kommen. Seitdem lebe ich in Berlin.\n\nNach einigen Jahren der Ansiedlung und nachdem ich die Landessprache gelernt habe, habe ich mich schließlich entschieden, wieder Websites zu erstellen, was mir sehr am Herzen liegt.\n\nAm meisten gefällt mir, Lösungen in der Entwicklung von Webanwendungen zu finden, Daten analysieren und Strukturen erstellen.\n\nObwohl ich in der Vergangenheit auch an grafischen Kompositionen gearbeitet habe, bin ich kein Designer, aber ich kann trotzdem sharfsinnige Mockups erstellen und sie in HTML und CSS übersetzen."
+        },
+        "Tech": {
+            "title": "Deswegen er gesucht wird",
+            "content":"Vor enigen Jahren habe ich mir selbst beigebracht, wie man Templates für Wordpress erstellt, nur mit HTML und CSS.\n\nIn Berlin besuchte ich die Schule Digital Career Institute und lernte neue Technologien zur Entwicklung von Websites.\n\nWährend des Full Stack Web Developer-Kurses, mit MERN Stack Fokus, neben der Vertiefung meiner Kenntnisse in HTML und CSS habe ich JavaScript, React JS, Node JS, Express und MongoDB gelernt.\n\nIch arbeite gerne mit React JS und entwickle Komponenten, die zum Filtern von Daten und zum Erstellen von Webseiten wiederverwendet werden können."
+        },
+        "Projects": "projects auf deutch",
+        "Contact": {
+            "title": "Schreib mir!",
+            "content": "Für weitere Informationen zögern Sie nicht, mich zu kontaktieren."
+        }
     },
     "en": {
-        "About": "about in english",
-        "Tech": "tech in english",
-        "Projects": "projects in english"
+        "About": {
+            "title": "Hi! My name is Pio and I am a Full Stack web developer.",
+            "content": "I am Italian and lived in Italy until a few years ago. During the last years of my stay in Bel Paese I gained experience in developing websites for some businesses, companies and associations, using the Wordpress framework.\n\nAt a certain point in my life I decided to move to another country to broaden my horizons and get in touch with new realities and other cultures. Since then I've been living in Berlin.\n\nAfter a few years of settling and after learning the local language, I finally decided to create websites again, which is very important to me.\n\nWhat I like most is finding solutions in web application development, analyzing data and creating structures.\n\nAlthough I've also worked on graphical compositions in the past, I'm not a designer, but I can still create subtle mockups and translate them into HTML and CSS."
+        },
+        "Tech": {
+            "title": "My skills",
+            "content":"A few years ago I taught myself how to create templates for WordPress using only HTML and CSS.\n\nIn Berlin, I attended the Digital Career Institute and learned new technologies for developing websites.\n\nDuring the Full Stack Web Developer course, with MERN Stack focus, besides deepening my knowledge of HTML and CSS, I learned JavaScript, React JS, Node JS, Express and MongoDB.\n\nI enjoy working with React JS and developing components that can be reused to filter data and build web pages."
+        },
+        "Projects": "projects in english",
+        "Contact": {
+            "title": "Catch me!",
+            "content": "For any information do not hesitate to contact me."
+        }
     }
 }

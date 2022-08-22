@@ -9,13 +9,23 @@
     box-sizing: border-box;
 }
 
-.lang-selection > div {
-    color: white;
+.lang-selection-portrait, .lang-buttons-portrait {
+    width: 100%;
+    display: flex;
+}
+
+.lang-selection-portrait {
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.lang-buttons-portrait {
+    max-width: 200px;
+    justify-content: space-evenly;
 }
 
 .lang-popup {
     display: flex;
-    justify-content: space-evenly;
 }
 
 .lang-selected, .lang-to-select {
@@ -24,8 +34,31 @@
     background-size: contain;
     cursor: pointer;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid rgb(55, 10, 10);;
     -moz-box-shadow:    inset 0 0 5px black;
     -webkit-box-shadow: inset 0 0 5px black;
     box-shadow: inset 0 0 5px black;
+}
+
+.fade-in {
+	-webkit-animation: fade-in 1.5s;
+	animation: fade-in 1.5s;
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
