@@ -18,7 +18,7 @@ export default function PagesLinks(props) {
                 key={key}
                 onClick={onClick}
                 to={page.link}
-                className={navData => navData.isActive ? 'nav-buttons nav-active' : 'nav-buttons'}>
+                className={navData => navData.isActive ? 'nav-active' : 'nav-buttons'}>
                     {page.name}
                 </NavLink>
     });

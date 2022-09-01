@@ -1,47 +1,129 @@
 {
     "it": {
-        "About": {
-            "title": "Ciao! il mio nome e' Pio e sono uno sviluppatore web Full Stack.",
-            "content": "Sono italiano e ho vissuto in Italia fino ad alcuni anni fa. Negli ultimi anni di permanenza nel Bel Paese ho fatto esperienza sviluppando siti web per alcune attivita', aziende e associazioni, utilizzando il framework Wordpress.\n\nAd un certo punto della mia esistenza ho deciso di cambiare Paese per allargare i miei orizzonti, entrando in contatto con nuove realta' e altre culture. Da allora risiedo a Berlino.\n\nDopo alcuni anni di assestamento e dopo aver appreso la lingua locale, ho finalmente deciso di tornare a creare siti web, cosa che mi appassiona molto.\n\nCio' che mi piace di piu' e' trovare soluzioni nello sviluppo di applicazioni web, analizzando i dati e realizzando le strutture.\n\nSebbene in passato ho lavorato anche a composizioni grafiche, non sono un designer, ma posso comunque creare mockups e tradurli in HTML e CSS."
+        "about": {
+            "title": "Ciao! il mio nome \u00E8 Pio e sono uno sviluppatore web.",
+            "content1": "Sono italiano e ho vissuto in Italia fino ad alcuni anni fa. Negli ultimi anni di permanenza nel Bel Paese ho fatto esperienza sviluppando siti web per alcune attivit\u00E0, aziende e associazioni, utilizzando Wordpress.",
+            "content2": "Per allargare i miei orizzonti ed entrare in contatto con nuove realt\u00E0 e altre culture, ho deciso di viaggiare. Sono giunto per caso a Berlino. Mi \u00E8 piaciuta cos\u00EC tanto che ancora oggi vivo nella capitale tedesca.",
+            "content3": "Dopo alcuni anni di assestamento e dopo aver imparato il tedesco, ho finalmente deciso di tornare a creare siti web, cosa che mi appassiona molto.",
+            "content4": "Ci\u00F2 che mi piace di pi\u00F9 \u00E8 trovare soluzioni nello sviluppo di applicazioni web, analizzando i dati e realizzando le strutture.",
+            "content5": "Sebbene in passato ho lavorato anche a composizioni grafiche, non sono un designer, ma posso comunque creare mockups e tradurli in JavaScript, HTML e CSS."
         },
-        "Tech": {
+        "tech": {
             "title": "Le mie competenze",
-            "content":"Alcuni anni fa ho imparato da autodidatta a creare templates per Wordpress, usando semplicemente HTML e CSS.\n\nA Berlino ho frequentato la scuola Digital Career Institute, apprendendo nuove tecnologie per sviluppare siti web.\n\nDurante il corso di Full Stack Web Developer con focus MERN Stack, oltre ad approfondire le mie conoscenze in HTML e CSS, ho imparato JavaScript, React JS, Node JS, Express e MongoDB.\n\nMi piace lavorare con React JS e sviluppare componenti che possono essere riutilizzati per filtrare dati e creare pagine web."
+            "content":"Alcuni anni fa ho imparato da autodidatta a creare templates per Wordpress, usando semplicemente HTML e CSS.\n\nA Berlino ho frequentato la scuola Digital Career Institute, apprendendo nuove tecnologie per sviluppare siti web.\n\nDurante il corso di * Full Stack Web Developer * oltre ad approfondire le mie conoscenze in HTML e CSS, ho imparato JavaScript, React JS, Node JS, Express e MongoDB.\n\nMi piace lavorare con React JS e sviluppare componenti che possono essere riutilizzati per filtrare dati e creare pagine web."
         },
-        "Projects": "projects in italiano",
-        "Contact": {
-            "title": "Contattami!",
+        "projects": {
+            "title": "Progetti",
+            "content": "In questa sezione puoi trovare i progetti pi\u00F9 significativi a cui ho lavorato.\n\nIn futuro pubblicher\u00F2 qui i miei prossimi lavori.",
+            "tech_used": "Tecnologia usata",
+            "projects_list": [
+                {
+                    "title": "Mart",
+                    "description": "Ho creato questa applicazione per approfondire e migliorare il mio sapere a riguardo di progetti Full Stack basati su tecnologia MERN (MongoDB, Express, React JS, Node JS).\n\nMart \u00E8 la combinazione delle due parole di Music and Art.\n\nCon questo progetto mi sono impegnato a studiare la possibilit\u00E0 di creare una applicazione per musicisti ed artisti, i quali possano con pochi click modificare immagini e testi contenuti nelle pagine web ed inoltre creare eventi per mostre e concerti in maniera semplice e veloce.\n\nQuesta versione e' multilingue come il sito internet che stai visitando proprio adesso.\n\nQuesto \u00E8 un MVP (prodotto minimo funzionante) e non \u00E8 ancora pubblico.",
+                    "preview": "../images/mart/Home page.jpg"
+                },
+                {
+                    "title": "Greet Now",
+                    "description": "Questo \u00E8 un progetto di squadra. Abbiamo creato una applicazione per inviare biglietti di auguri.\n\nPersonalmente ho creato la prima struttura SPA (Applicazione a pagina singola), componente di autenticazione nel front e back-end utilizzando JWT e Bcrypt.\n\nInoltre ho sviluppato e migliorato diversi componenti:\n* finestre popup per selezione testi e immagini da catalogo;\n* gioco slot machine per selezionare in maniera casuale l'immagine da utilizzare nel biglietto di auguri;\n* componente per l'invio e la condivisione del biglietto di auguri in vari social network e Whats App.\n\nInoltre ho collaborato con il mio team per risolvere errori di programmazione.\n\nQuesto è un MVP (prodotto minimo funzionante) e non è ancora pubblico.",
+                    "preview": "../images/greet_now/Greet Now home page.jpg"
+                },
+                {
+                    "title": "Sapori Alpe Adria",
+                    "description": "Ho creato questo sito web per garantire la mia presenza in Internet, promuovendo la mia attività di vendita di prodotti tipici italiani di alta qualit\u00E0 presso i mercati berlinesi.\n\nPer questo progetto ho usato Wordpress creando il design e i contenuti. Questo sito Internet non \u00E8 pi\u00F9 pubblico.",
+                    "preview": "../images/sapori_alpeadria/saa01.jpg"
+                }
+            ]
+        },
+        "contact": {
+            "title": "Prendimi!",
             "content": "Per qualsiasi informazione non esitare a contattarmi."
-        }
+        },
+        "countries": ["Germania", "Italia"]
     },
     "de": {
-        "About": {
-            "title": "Hallo! Mein Name ist Pio und ich bin ein Full Stack-Webentwickler.",
-            "content": "Ich bin Italiener und habe bis vor einigen Jahren in Italien gelebt. In den letzten Jahren meines Aufenthalts in Bel Paese sammelte ich Erfahrungen bei der Entwicklung von Websites für einige Geschäfte, Unternehmen und Vereine, mit dem Wordpress-Framework.\n\nAn einem bestimmten Punkt in meinem Leben entschied ich mich, das Land zu wechseln, um meinen Horizont zu erweitern und mit neuen Realitäten und anderen Kulturen in Kontakt zu kommen. Seitdem lebe ich in Berlin.\n\nNach einigen Jahren der Ansiedlung und nachdem ich die Landessprache gelernt habe, habe ich mich schließlich entschieden, wieder Websites zu erstellen, was mir sehr am Herzen liegt.\n\nAm meisten gefällt mir, Lösungen in der Entwicklung von Webanwendungen zu finden, Daten analysieren und Strukturen erstellen.\n\nObwohl ich in der Vergangenheit auch an grafischen Kompositionen gearbeitet habe, bin ich kein Designer, aber ich kann trotzdem sharfsinnige Mockups erstellen und sie in HTML und CSS übersetzen."
+        "about": {
+            "title": "Hallo! Mein Name ist Pio und ich bin ein Webentwickler.",
+            "content1": "Ich bin Italiener und habe bis vor einigen Jahren in Italien gelebt. In den letzten Jahren meines Aufenthalts in Bel Paese (Italien) sammelte ich Erfahrungen bei der Entwicklung von Websites für Geschäfte, Unternehmen und Vereine, mit Wordpress.",
+            "content2":"Um meinen Horizont zu erweitern und mit neuen Realitäten und anderen Kulturen in Kontakt zu kommen, habe ich mich entschieden zu reisen. Zufällig bin ich in Berlin gelandet. Es hat mir so gut gefallen, dass ich bis heute hier in der Hauptstadt lebe.",
+            "content3":"Nach einigen Jahren der Ansiedlung und nachdem ich die Landessprache gelernt habe, habe ich mich schließlich entschieden, wieder Websites zu erstellen. Das liegt mir sehr am Herzen.",
+            "content4": "Am meisten gefällt mir, Lösungen in der Entwicklung von Webanwendungen zu finden, Daten analysieren und Strukturen erstellen.",
+            "content5": "Obwohl ich in der Vergangenheit auch an grafischen Kompositionen gearbeitet habe, bin ich kein Designer, aber ich kann trotzdem sharfsinnige Mockups erstellen und sie in JavaScript, HTML und CSS übersetzen."
         },
-        "Tech": {
-            "title": "Deswegen er gesucht wird",
-            "content":"Vor enigen Jahren habe ich mir selbst beigebracht, wie man Templates für Wordpress erstellt, nur mit HTML und CSS.\n\nIn Berlin besuchte ich die Schule Digital Career Institute und lernte neue Technologien zur Entwicklung von Websites.\n\nWährend des Full Stack Web Developer-Kurses, mit MERN Stack Fokus, neben der Vertiefung meiner Kenntnisse in HTML und CSS habe ich JavaScript, React JS, Node JS, Express und MongoDB gelernt.\n\nIch arbeite gerne mit React JS und entwickle Komponenten, die zum Filtern von Daten und zum Erstellen von Webseiten wiederverwendet werden können."
+        "tech": {
+            "title": "Weswegen er gesucht wird",
+            "content":"Vor enigen Jahren habe ich mir selbst beigebracht, wie man Templates für Wordpress erstellt, nur mit HTML und CSS.\n\nIn Berlin besuchte ich die Schule Digital Career Institute und lernte neue Technologien zur Entwicklung von Websites.\n\nWährend des * Full Stack Web Developer * -Kurses bin ich tiefer in die Welt von HTML und CSS eingetaucht. Dazu habe ich JavaScript, React JS, Node JS, Express und MongoDB gelernt.\n\nIch arbeite gerne mit React JS und entwickle Komponenten, die zum Filtern von Daten und zum Erstellen von Webseiten wiederverwendet werden können."
         },
-        "Projects": "projects auf deutch",
-        "Contact": {
-            "title": "Schreib mir!",
+        "projects": {
+            "title": "Projekte",
+            "content": "Auf dieser Seite finden Sie die neuesten und wichtigsten Projekte, an denen ich gearbeitet habe.\n\nIn Zukunft werde ich hier meine nächsten Arbeiten veröffentlichen.",
+            "tech_used": "verwendete Technologie",
+            "projects_list": [
+                {
+                    "title": "Mart",
+                    "description": "Ich habe diese Anwendung erstellt, um mein Wissen über Full-Stack-Projekte auf Basis der MERN-Technologie (MongoDB, Express, React JS, Node JS) zu vertiefen.\n\nMart ist die Kombination der beiden Wörter Musik und Art.\n\nMit diesem Projekt habe ich mir vorgenommen, die Möglichkeit zu untersuchen, eine Anwendung für Musiker und Künstler zu erstellen, die mit wenigen Klicks auf den Webseiten enthaltene Bilder und Texte ändern und auf einfache und schnelle Weise Veranstaltungen für Ausstellungen und Konzerte erstellen können.\n\nDiese Version ist mehrsprachig wie die Website, die Sie gerade besuchen.\n\nDies ist ein MVP (minimal funktionsfähiges Produkt) und noch nicht öffentlich.",
+                    "preview": "../images/mart/Home page.jpg"
+                },
+                {
+                    "title": "Greet Now",
+                    "description": "Dies ist ein Teamprojekt. Wir haben eine App zum Versenden von Grußkarten entwickelt.\n\nIch habe die erste SPA-Struktur (einseitige App) und Authentifizierungskomponente im Front- und Backend mit JWT und Bcrypt erstellt.\n\nAußerdem habe ich mehrere Komponenten entwickelt und verbessert:\n* Popup-Fenster zum Auswählen von Texten und Bildern aus dem Katalog;\n* Spielautomat zur zufälligen Auswahl des Bildes, das in der Grußkarte verwendet werden soll;\n* Komponente zum Versenden und Teilen der Grußkarte in verschiedenen sozialen Netzwerken und Whats App.\n\nIch habe auch mit meinem Team zusammengearbeitet, um Fehler zu beheben.\n\nDies ist ein MVP (minimal funktionsfähiges Produkt) und noch nicht öffentlich.",
+                    "preview": "../images/greet_now/Greet Now home page.jpg"
+                },
+                {
+                    "title": "Sapori Alpe Adria",
+                    "description": "Ich habe diese Website erstellt, um meine Präsenz im Internet zu gewährleisten und mein Geschäft zu fördern, italienische Feinkost auf den Berliner Märkten zu verkaufen.\n\nFür dieses Projekt habe ich Wordpress verwendet und das Design und den Inhalt erstellt. Diese Seite ist nicht mehr öffentlich.",
+                    "tech": ["wordpress", "html", "css"],
+                    "preview": "../images/sapori_alpeadria/saa01.jpg"
+                }
+                
+            ]
+        },
+        "contact": {
+            "title": "Fang mich!",
             "content": "Für weitere Informationen zögern Sie nicht, mich zu kontaktieren."
-        }
+        },
+        "countries": ["Deutschland", "Italien"]
     },
     "en": {
-        "About": {
-            "title": "Hi! My name is Pio and I am a Full Stack web developer.",
-            "content": "I am Italian and lived in Italy until a few years ago. During the last years of my stay in Bel Paese I gained experience in developing websites for some businesses, companies and associations, using the Wordpress framework.\n\nAt a certain point in my life I decided to move to another country to broaden my horizons and get in touch with new realities and other cultures. Since then I've been living in Berlin.\n\nAfter a few years of settling and after learning the local language, I finally decided to create websites again, which is very important to me.\n\nWhat I like most is finding solutions in web application development, analyzing data and creating structures.\n\nAlthough I've also worked on graphical compositions in the past, I'm not a designer, but I can still create subtle mockups and translate them into HTML and CSS."
+        "about": {
+            "title": "Hi! My name is Pio and I am a web developer.",
+            "content1": "I am Italian and lived in Italy until a few years ago. During the last years of my stay in Bel Paese (Italy) I gained experience in developing websites for businesses, companies and associations, using Wordpress.",
+            "content2": "To widen my horizons and to get in touch with new realities and other cultures I decided to move to another country. Since then I've been living in Berlin.",
+            "content3": "After a few years of settling and after learning German, I decided to create websites again, because I love it.",
+            "content4": "What I like most is finding solutions in web application development, analyzing data and creating structures.",
+            "content5": "Although I have worked on graphical compositions in the past, I am not a designer, but I can still create subtle mockups and translate them into JavaScript, HTML and CSS."
         },
-        "Tech": {
+        "tech": {
             "title": "My skills",
-            "content":"A few years ago I taught myself how to create templates for WordPress using only HTML and CSS.\n\nIn Berlin, I attended the Digital Career Institute and learned new technologies for developing websites.\n\nDuring the Full Stack Web Developer course, with MERN Stack focus, besides deepening my knowledge of HTML and CSS, I learned JavaScript, React JS, Node JS, Express and MongoDB.\n\nI enjoy working with React JS and developing components that can be reused to filter data and build web pages."
+            "content":"A few years ago I taught myself how to create templates for WordPress only using HTML and CSS.\n\nIn Berlin, I attended the Digital Career Institute and learned new technologies for developing websites.\n\nDuring the * Full Stack Web Developer * course besides deepening my knowledge of HTML and CSS, I learned JavaScript, React JS, Node JS, Express and MongoDB.\n\nI enjoy working with React JS and developing components that can be reused to filter data and build web pages."
         },
-        "Projects": "projects in english",
-        "Contact": {
+        "projects": {
+            "title": "Projects",
+            "content": "In this section you can find the most significant projects I have worked on.\n\nIn the future I will publish my next works here.",
+            "tech_used": "Tech used",
+            "projects_list": [
+                {
+                    "title": "Mart",
+                    "description": "I created this application to deepen my knowledge about Full Stack projects. This project is based on MERN technology (MongoDB, Express, React JS, Node JS).\n\nMart is the combination of the two words of Music and Art.\n\nWith this project I have undertaken to study the possibility of creating an application for musicians and artists, who can, with a few clicks, modify images and texts contained in the web pages and also create events for exhibitions and concerts in a simple and fast way.\n\nThis version is multilingual like the website you are visiting right now.\n\nThis is an MVP (Minimum Viable Product) and is not public yet.",
+                    "preview": "../images/mart/Home page.jpg"
+                }
+                ,
+                {
+                    "title": "Greet Now",
+                    "description": "This is a team project. We created an app to send greeting cards.\n\nI created the first SPA structure and authentication component in the front and back-end using JWT and Bcrypt.\n\nFurthermore I have also developed and improved several components:\n* popup windows for selecting texts and images from the catalog;\n* slot machine game to randomly select the image to use in the greeting card;\n* component for sending and sharing the greeting card in various social networks and Whats App.\n\nI also worked with my team to fix bugs.\n\nThis is a MVP (Minimum Viable Product) and it is not public yet.",
+                    "preview": "../images/greet_now/Greet Now home page.jpg"
+                },
+                {
+                
+                    "title": "Sapori Alpe Adria",
+                    "description": "I created this website to guarantee my Internet presence, promoting my business of selling typical Italian fine food at Berlins' markets.\n\nFor this project I used Wordpress creating the design and the content. This site is no longer public.",
+                    "preview": "../images/sapori_alpeadria/saa01.jpg"
+                }
+            ]
+        },
+        "contact": {
             "title": "Catch me!",
             "content": "For any information do not hesitate to contact me."
-        }
+        },
+        "countries": ["Germany", "Italy"]
     }
 }

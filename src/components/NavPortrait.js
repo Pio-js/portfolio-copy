@@ -8,9 +8,9 @@ export default function NavPortrait(props) {
 
     return (
         <>
-            <div id="navbar-portrait" onClick={() => setOpen(!open)}>
+            <div id="navbar-portrait">
                 <div id="navbar-title">PIO SAIJA</div>
-                <div id='menu-button'>
+                <div id='menu-button' onClick={() => setOpen(!open)}>
                     <span></span>
                     <span></span>
                     <span></span>
