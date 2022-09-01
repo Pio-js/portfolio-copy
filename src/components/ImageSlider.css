@@ -1,0 +1,74 @@
+.img-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-left-arrow, .gallery-right-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.gallery-left-arrow {
+    left: 10px;
+    border-right: 20px solid white;
+}
+
+.gallery-right-arrow {
+    right: 10px;
+    border-left: 20px solid white;
+}
+
+.slide-content {
+    transition: all 250ms linear;
+}
+
+.slide-content > * {
+    width: 100%;
+}
+
+#dots-menu {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+.dot-container {
+    width: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dot-white, .dot-gray {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.dot-white {
+    background-color: white;
+}
+
+.dot-gray {
+    background-color: gray;
+}
+
+/* hide arrows if touchscreen // to check when app is loading if it is touchscreen*/
+@media (hover: none) and (pointer: coarse) {
+    .gallery-left-arrow, .gallery-right-arrow {
+        display: none;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 500px) {
+    .gallery-left-arrow, .gallery-right-arrow {
+        display: none;
+    }
+}

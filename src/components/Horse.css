@@ -1,0 +1,55 @@
+#horse {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#horse-animation {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+#rider {
+    width: 100px;
+}
+
+#rider-de, #rider-it {
+    width: 150px;
+}
+
+#rider-de > p, #rider-it > p {
+    margin: 0;
+    font-weight: bold;
+    overflow-wrap: normal;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+#rider-de > img, #rider-it > img {
+    width: 100%;
+}
+
+#rider-it {
+    align-self: center;
+}
+
+@media (orientation: portrait) and (max-width: 800px) {
+    #horse {
+        height: 130px;
+    }
+
+    #rider-de, #rider-it {
+        width: 100px;
+    }
+
+    #rider {
+        width: 80px;
+    }
+}

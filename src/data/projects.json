@@ -1,0 +1,41 @@
+{
+    "Sapori Alpe Adria": {
+        "tech": [
+            "Wordpress", "HTML", "CSS"
+        ],
+        "folder": "sapori_alpeadria",
+        "images": [
+            "Home desktop", "Home mobile", "Rezepte desktop", "Rezepte mobile", "Produkte desktop"
+        ]
+    },
+    
+    "Greet Now": {
+        "tech": [
+            "React JS", "Node JS", "Express", "MongoDB", "Mongoose", "Multer", "JWT", "Bcrypt", "Redux", "Material UI", "HTML", "CSS"
+        ],
+        "folder": "greet_now",
+        "images": [
+            "Greet Now home page", "Greet Now card", "Greet Now login"
+        ],
+        "links": [
+            {
+                "title": "Front-end",
+                "value": "https://github.com/Pio-js/GreetNow-front"
+            },
+            {
+                "title": "Back-end",
+                "value": "https://github.com/Pio-js/GreetNow-back"
+            }
+        ]
+    },
+
+    "Mart": {
+        "tech": [
+            "React JS", "Node JS", "Express", "MongoDB", "Mongoose", "Multer", "HTML", "CSS"
+        ],
+        "folder": "mart",
+        "images": [
+            "Home mobile", "Bio mobile", "Media mobile", "Events mobile", "Contact mobile", "Mart dashboard mobile", "Mart pages mobile", "Mart media mobile", "Mart events mobile", "Mart event creation mobile", "Mart image selection mobile", "Mart images upload mobile"
+        ]
+    }
+}
