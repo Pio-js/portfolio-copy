@@ -8,12 +8,13 @@ export default function Tech(props) {
 
     const tech = software.web.map(item => {
         return (
-            <div className='tech-item'>
+            <div key={item} className='tech-item'>
                 <p>{item}</p>
                 <img src={`../images/icons/dark/${item}.png`} alt='icon' />
             </div>
         )
-    })
+    });
+
     return (
         <div id='tech'>
             {

@@ -2,7 +2,7 @@ import { useState } from "react";
 import './ImageSlider.css'
 
 export default function ImageSlider ({ slides }) {
-    console.log(slides);
+    
     const [touchPosition, setTouchPosition] = useState(null);
     const [current, setCurrent] = useState(0);
     const length = slides.length;

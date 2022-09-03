@@ -11,8 +11,6 @@ export default function ProjectsList(props) {
     const techUsed = props.data.projects.tech_used;
     const projectsList = props.data.projects.projects_list;
 
-    console.log(techUsed);
-
     const projects = projectsList.map((project, key) => {
 
         return (
