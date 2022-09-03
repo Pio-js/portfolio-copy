@@ -16,6 +16,43 @@
 
 #rider {
     width: 100px;
+    position: relative;
+    animation: horse-moving 5s infinite;
+    animation-direction: normal;
+}
+
+@-webkit-keyframes horse-moving {
+    0% {
+        left: 90%;
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        left: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes horse-moving {
+    0% {
+        left: 90%;
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        left: 0;
+        opacity: 0;
+    }
 }
 
 #rider-de, #rider-it {

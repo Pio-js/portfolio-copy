@@ -14,7 +14,6 @@ export default function Project(props) {
 
     const projectSelected = props.projectsList.filter(project => project.title === props.projectTitle);
     const projectData = projects[props.projectTitle];
-    console.log(projectSelected);
 
     const techUsedImages = projectData.tech.map((item) => {
         return (
