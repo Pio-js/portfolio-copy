@@ -7,6 +7,8 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import language from './data/language.json';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
+import Impressum from './pages/Impressum';
 import './App.css';
 
 function App() {
@@ -25,7 +27,7 @@ function App() {
   useEffect(() => {
     console.log(lang);
     setData(language[lang]);
-  }, [lang])
+  }, [lang]);
 
   return (
     <div className="App">
@@ -38,9 +40,11 @@ function App() {
             <Route path="tech" element = {<Tech lang={lang} data={data}/>} />
             <Route path="projects" element = {<Projects lang={lang} data={data}/>} />
             <Route path="contact" element = {<Contact lang={lang} data={data}/>} />
+            <Route path="impressum" element = {<Impressum lang={lang} data={data}/>} />
           </Routes>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

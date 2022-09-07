@@ -33,9 +33,9 @@ export default function Contact(props) {
                 <label htmlFor="contact-email-address">Your email address</label>
                 <input type='text' id='contact-email-address' name="user_email" required/>
                 <label htmlFor="contact-message">Your message</label>
-                <textarea id='contact-message' name="message" required/>
+                <textarea placeholder="Under construction! This component is not working yet" id='contact-message' name="message" required/>
                 <div id="check-send">
-                    <div className="g-recaptcha" data-sitekey="6LdK-MYhAAAAALiwrJXUw8OUQWYaA_qxF98-qj5J" required></div>
+                    <div className="g-recaptcha" data-sitekey="6LdK-MYhAAAAALiwrJXUw8OUQWYaA_qxF98-qj5J"></div>
                     <button id='send-button' type="submit">Send</button>
                 </div>
                 
