@@ -62,3 +62,10 @@
         opacity: 1;
     }
 }
+
+@media (orientation: landscape) and (max-width: 800px) {
+
+    .lang-selection-portrait {
+        margin-top: 0;
+    }
+}

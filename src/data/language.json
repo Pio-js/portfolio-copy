@@ -42,16 +42,16 @@
     },
     "de": {
         "about": {
-            "title": "Hallo! Mein Name ist Pio und ich bin ein Webentwickler.",
-            "content1": "Ich bin Italiener und habe bis vor einigen Jahren in Italien gelebt. In den letzten Jahren meines Aufenthalts in Bel Paese (Italien) sammelte ich Erfahrungen bei der Entwicklung von Websites für Geschäfte, Unternehmen und Vereine, mit Wordpress.",
-            "content2":"Um meinen Horizont zu erweitern und mit neuen Realitäten und anderen Kulturen in Kontakt zu kommen, habe ich mich entschieden zu reisen. Zufällig bin ich in Berlin gelandet. Es hat mir so gut gefallen, dass ich bis heute hier in der Hauptstadt lebe.",
+            "title": "Hallo! Mein Name ist Pio und ich bin ein Web Developer.",
+            "content1": "Ich bin Italiener und habe bis vor einigen Jahren in Italien gelebt. In den letzten Jahren meines Aufenthalts in Bel Paese (Italien) sammelte ich Erfahrungen bei der Entwicklung von Websites für Geschäfte, Unternehmen und Vereine mit Wordpress.",
+            "content2":"Um meinen Horizont zu erweitern und mit anderen Kulturen in Kontakt zu kommen, habe ich mich entschieden zu reisen. Zufällig bin ich in Berlin gelandet. Es hat mir so gut gefallen, dass ich bis heute hier in der Hauptstadt lebe.",
             "content3":"Nach einigen Jahren der Ansiedlung und nachdem ich die Landessprache gelernt habe, habe ich mich schließlich entschieden, wieder Websites zu erstellen. Das liegt mir sehr am Herzen.",
-            "content4": "Am meisten gefällt mir, Lösungen in der Entwicklung von Webanwendungen zu finden, Daten analysieren und Strukturen erstellen.",
+            "content4": "Am meisten gefällt mir, Lösungen in der Entwicklung von Webanwendungen zu finden, Daten zu analysieren und Strukturen zu erstellen.",
             "content5": "Obwohl ich in der Vergangenheit auch an grafischen Kompositionen gearbeitet habe, bin ich kein Designer, aber ich kann trotzdem sharfsinnige Mockups erstellen und sie in JavaScript, HTML und CSS übersetzen."
         },
         "tech": {
             "title": "Weswegen er gesucht wird",
-            "content":"Vor enigen Jahren habe ich mir selbst beigebracht, wie man Templates für Wordpress erstellt, nur mit HTML und CSS.\n\nIn Berlin besuchte ich die Schule Digital Career Institute und lernte neue Technologien zur Entwicklung von Websites.\n\nWährend des * Full Stack Web Developer * -Kurses bin ich tiefer in die Welt von HTML und CSS eingetaucht. Dazu habe ich JavaScript, React JS, Node JS, Express und MongoDB gelernt.\n\nIch arbeite gerne mit React JS und entwickle Komponenten, die zum Filtern von Daten und zum Erstellen von Webseiten wiederverwendet werden können."
+            "content":"Vor enigen Jahren habe ich mir selbst beigebracht, wie man Templates für Wordpress erstellt, nur mit HTML und CSS.\n\nIn Berlin besuchte ich die Schule Digital Career Institute und lernte neue Technologien zur Entwicklung von Websites.\n\nWährend des * Full Stack Web Developer * -Kurses bin ich tiefer in die Welt von HTML und CSS eingetaucht. Dazu habe ich JavaScript, React JS, Node JS, Express und MongoDB gelernt.\n\nIch arbeite gerne mit React JS und entwickle Komponenten, die zum Filtern von Daten und zum Erstellen von Websites wiederverwendet werden können."
         },
         "projects": {
             "title": "Projekte",
@@ -60,7 +60,7 @@
             "projects_list": [
                 {
                     "title": "Mart",
-                    "description": "Ich habe diese Anwendung erstellt, um mein Wissen über Full-Stack-Projekte auf Basis der MERN-Technologie (MongoDB, Express, React JS, Node JS) zu vertiefen.\n\nMart ist die Kombination der beiden Wörter Musik und Art.\n\nMit diesem Projekt habe ich mir vorgenommen, die Möglichkeit zu untersuchen, eine Anwendung für Musiker und Künstler zu erstellen, die mit wenigen Klicks auf den Webseiten enthaltene Bilder und Texte ändern und auf einfache und schnelle Weise Veranstaltungen für Ausstellungen und Konzerte erstellen können.\n\nDiese Version ist mehrsprachig wie die Website, die Sie gerade besuchen.\n\nDies ist ein MVP (minimal funktionsfähiges Produkt) und noch nicht öffentlich.",
+                    "description": "Ich habe diese Anwendung erstellt, um mein Wissen über Full-Stack-Projekte auf Basis der MERN-Technologie (MongoDB, Express, React JS, Node JS) zu vertiefen.\n\nMart ist die Kombination der beiden Wörter Musik und Art.\n\nMit diesem Projekt habe ich mir vorgenommen, die Möglichkeit zu untersuchen, eine Anwendung für Musiker und Künstler zu erstellen, die mit wenigen Klicks auf den Websites enthaltene Bilder und Texte ändern und auf einfache und schnelle Weise Veranstaltungen für Ausstellungen und Konzerte erstellen können.\n\nDiese Version ist mehrsprachig wie die Website, die Sie gerade besuchen.\n\nDies ist ein MVP (minimal funktionsfähiges Produkt) und noch nicht öffentlich.",
                     "preview": "../images/mart/Home page.jpg"
                 },
                 {
@@ -78,7 +78,7 @@
             ]
         },
         "contact": {
-            "title": "Fang mich!",
+            "title": "Catch me!",
             "content": "Für weitere Informationen zögern Sie nicht, mich zu kontaktieren."
         },
         "countries": ["Deutschland", "Italien"]
@@ -86,7 +86,7 @@
     "en": {
         "about": {
             "title": "Hi! My name is Pio and I am a web developer.",
-            "content1": "I am Italian and lived in Italy until a few years ago. During the last years of my stay in Bel Paese (Italy) I gained experience in developing websites for businesses, companies and associations, using Wordpress.",
+            "content1": "I am Italian and lived in Italy until a few years ago. During the last years of my stay in Bel Paese (Italy) I gained experience in developing websites for businesses, companies and associations using Wordpress.",
             "content2": "To widen my horizons and to get in touch with new realities and other cultures I decided to move to another country. Since then I've been living in Berlin.",
             "content3": "After a few years of settling and after learning German, I decided to create websites again, because I love it.",
             "content4": "What I like most is finding solutions in web application development, analyzing data and creating structures.",

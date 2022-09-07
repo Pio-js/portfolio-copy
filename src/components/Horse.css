@@ -23,7 +23,7 @@
 
 @-webkit-keyframes horse-moving {
     0% {
-        left: 90%;
+        left: 80%;
         opacity: 0;
     }
     20% {
@@ -40,7 +40,7 @@
 
 @keyframes horse-moving {
     0% {
-        left: 90%;
+        left: 80%;
         opacity: 0;
     }
     20% {
