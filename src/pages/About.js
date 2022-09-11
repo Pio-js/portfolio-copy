@@ -1,14 +1,21 @@
+import { useEffect, useRef } from 'react';
 import Horse from '../components/Horse';
 import './About.css';
 
 export default function About(props) {
+
+    const titleRef = useRef();
+
+    useEffect(() => {
+        titleRef.current.scrollIntoView({behavior: "smooth", block: "start"});
+    }, []);
 
     const title = props.data.about.title
     const about = props.data.about;
     const countries = props.data.countries
 
     return (
-        <div id='about'>
+        <div ref={titleRef} id='about'>
             {
                 props.orientation === 'portrait' &&
                 <>

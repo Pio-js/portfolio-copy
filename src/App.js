@@ -25,8 +25,8 @@ function App() {
   }, [width, breakpoint]);
 
   useEffect(() => {
-    console.log(lang);
     setData(language[lang]);
+    // eslint-disable-next-line
   }, [lang]);
 
   return (

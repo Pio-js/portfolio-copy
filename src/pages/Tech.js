@@ -1,7 +1,14 @@
+import { useEffect, useRef } from 'react';
 import software from '../data/software.json';
 import './Tech.css';
 
 export default function Tech(props) {
+
+    const titleRef = useRef();
+
+    useEffect(() => {
+        titleRef.current.scrollIntoView({behavior: "smooth", block: "start"});
+    }, []);
 
     const title = props.data.tech.title;
     const content = props.data.tech.content;
@@ -16,7 +23,7 @@ export default function Tech(props) {
     });
 
     return (
-        <div id='tech'>
+        <div ref={titleRef} id='tech'>
             {
                 props.orientation === 'portrait' &&
                 <img className='portrait-about-img' src='../images/Pio.png' alt='Pio Saija' />

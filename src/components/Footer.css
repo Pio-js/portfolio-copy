@@ -22,9 +22,9 @@
 @media (orientation: portrait) and (max-width: 800px), (orientation: landscape) and (max-width: 800px) {
 
     #footer {
-        position: absolute;
+        position: fixed;
         height: 40px;
-        margin-top: 0;
+        bottom: 0;
         background-image: url('../../public/images/wood-nav-bg.jpg');
         box-shadow: 5px 0 15px 5px black;
     }
