@@ -9,7 +9,7 @@
             "content5": "Sebbene in passato ho lavorato anche a composizioni grafiche, non sono un designer, ma posso comunque creare mockups e tradurli in JavaScript, HTML e CSS."
         },
         "tech": {
-            "title": "Le mie competenze",
+            "title": "Perch\u00E9 \u00E8 ricercato",
             "content":"Alcuni anni fa ho imparato da autodidatta a creare templates per Wordpress, usando semplicemente HTML e CSS.\n\nA Berlino ho frequentato la scuola Digital Career Institute, apprendendo nuove tecnologie per sviluppare siti web.\n\nDurante il corso di * Full Stack Web Developer * oltre ad approfondire le mie conoscenze in HTML e CSS, ho imparato JavaScript, React JS, Node JS, Express e MongoDB.\n\nMi piace lavorare con React JS e sviluppare componenti che possono essere riutilizzati per filtrare dati e creare pagine web."
         },
         "projects": {
@@ -36,7 +36,13 @@
         },
         "contact": {
             "title": "Prendimi!",
-            "content": "Per qualsiasi informazione non esitare a contattarmi."
+            "content": "Per qualsiasi informazione non esitare a contattarmi.",
+            "form": {
+                "name": "Nome e cognome",
+                "email": "Email",
+                "message": "Messaggio",
+                "button": "Invia"
+            }
         },
         "countries": ["Germania", "Italia"]
     },
@@ -79,7 +85,13 @@
         },
         "contact": {
             "title": "Catch me!",
-            "content": "Für weitere Informationen zögern Sie nicht, mich zu kontaktieren."
+            "content": "Für weitere Informationen zögern Sie nicht, mich zu kontaktieren.",
+            "form": {
+                "name": "Vor- und Nachname",
+                "email": "E-mail",
+                "message": "Nachricht",
+                "button": "Senden"
+            }
         },
         "countries": ["Deutschland", "Italien"]
     },
@@ -93,7 +105,7 @@
             "content5": "Although I have worked on graphical compositions in the past, I am not a designer, but I can still create subtle mockups and translate them into JavaScript, HTML and CSS."
         },
         "tech": {
-            "title": "My skills",
+            "title": "Why he is wanted",
             "content":"A few years ago I taught myself how to create templates for WordPress only using HTML and CSS.\n\nIn Berlin, I attended the Digital Career Institute and learned new technologies for developing websites.\n\nDuring the * Full Stack Web Developer * course besides deepening my knowledge of HTML and CSS, I learned JavaScript, React JS, Node JS, Express and MongoDB.\n\nI enjoy working with React JS and developing components that can be reused to filter data and build web pages."
         },
         "projects": {
@@ -122,7 +134,13 @@
         },
         "contact": {
             "title": "Catch me!",
-            "content": "For any information do not hesitate to contact me."
+            "content": "For any information do not hesitate to contact me.",
+            "form": {
+                "name": "Full name",
+                "email": "Email",
+                "message": "Message",
+                "button": "Send"
+            }
         },
         "countries": ["Germany", "Italy"]
     }

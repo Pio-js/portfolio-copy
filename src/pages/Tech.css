@@ -1,7 +1,4 @@
 #tech-list {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(3, auto); 
