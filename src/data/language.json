@@ -42,6 +42,10 @@
                 "email": "Email",
                 "message": "Messaggio",
                 "button": "Invia"
+            },
+            "response": {
+                "success": "Il tuo messaggio \u00E8 stato inviato con successo!",
+                "error": "Il tuo messaggio non \u00E8 stato inviato a causa di un errore!\nRiprova selezionando la casella 'non sono un robot'"
             }
         },
         "countries": ["Germania", "Italia"]
@@ -91,6 +95,10 @@
                 "email": "E-mail",
                 "message": "Nachricht",
                 "button": "Senden"
+            },
+            "response": {
+                "success": "Ihre Nachricht wurde erfolgreich gesendet!",
+                "error": "Ihre Nachricht wurde aufgrund eines Fehlers nicht gesendet!\nBitte versuchen Sie es erneut, nachdem Sie das Kästchen 'Ich bin kein Roboter' markieren!"
             }
         },
         "countries": ["Deutschland", "Italien"]
@@ -140,6 +148,10 @@
                 "email": "Email",
                 "message": "Message",
                 "button": "Send"
+            },
+            "response": {
+                "success": "Your message has been sent successfully!",
+                "error": "Your message was not sent due to an error!\nPlease try again after checking the 'I'm not a robot' box!"
             }
         },
         "countries": ["Germany", "Italy"]
