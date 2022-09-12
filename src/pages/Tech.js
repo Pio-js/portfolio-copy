@@ -24,10 +24,6 @@ export default function Tech(props) {
 
     return (
         <div ref={titleRef} id='tech'>
-            {
-                props.orientation === 'portrait' &&
-                <img className='portrait-about-img' src='../images/Pio.png' alt='Pio Saija' />
-            }
             <h1>{title}</h1>
             <p style={{"whiteSpace": "pre-line"}}>{content}</p>
             <div id='tech-list'>{tech}</div>

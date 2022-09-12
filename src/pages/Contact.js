@@ -7,6 +7,8 @@ export default function Contact(props) {
 
     const form = useRef();
     const titleRef = useRef();
+    const successMessage = props.data.contact.response.success;
+    const errorMessage = props.data.contact.response.error;
 
     useEffect(() => {
         titleRef.current.scrollIntoView({behavior: "smooth", block: "start"});
@@ -17,10 +19,10 @@ export default function Contact(props) {
         emailjs.sendForm('service_8298tmn', 'template_qx8lnck', form.current, 'MtRz-U23T60Guqdmp')
         .then((result) => {
             console.log(result.text);
-            alert('Your message was sent successfully!')
+            alert(successMessage)
         }, (error) => {
             console.log(error.text);
-            alert('Something went wrong and your message was not sent!');
+            alert(errorMessage);
         });
         e.target.reset();
     }
