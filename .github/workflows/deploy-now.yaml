@@ -36,9 +36,6 @@ jobs:
         env:
           CI: true
           SITE_URL: ${{ steps.project.outputs.site-url }}
-          REACT_APP_EMAIL_JS_SERVICE: ${{ secrets.REACT_APP_EMAIL_JS_SERVICE }}
-          REACT_APP_EMAIL_JS_TEMPLATE: ${{ secrets.REACT_APP_EMAIL_JS_TEMPLATE }}
-          REACT_APP_EMAIL_JS_USER: ${{ secrets.REACT_APP_EMAIL_JS_USER }}
         run: |
           npm ci
           npm run build
@@ -52,3 +49,6 @@ jobs:
           service-host: api-eu.ionos.space
           api-key: ${{ secrets.IONOS_API_KEY }}
           dist-folder: build
+          email-service: ${{ secrets.REACT_APP_EMAIL_JS_SERVICE }}
+          email-template: ${{ secrets.REACT_APP_EMAIL_JS_TEMPLATE }}
+          email-user: ${{ secrets.REACT_APP_EMAIL_JS_USER }}
