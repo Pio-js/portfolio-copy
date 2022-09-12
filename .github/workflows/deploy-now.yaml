@@ -36,9 +36,6 @@ jobs:
         env:
           CI: true
           SITE_URL: ${{ steps.project.outputs.site-url }}
-          email-service: ${{ secrets.REACT_APP_EMAIL_JS_SERVICE }}
-          email-template: ${{ secrets.REACT_APP_EMAIL_JS_TEMPLATE }}
-          email-user: ${{ secrets.REACT_APP_EMAIL_JS_USER }}
         run: |
           npm ci
           npm run build
