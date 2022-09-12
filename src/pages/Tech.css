@@ -1,3 +1,9 @@
+#tech {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 #tech-list {
     display: grid;
     grid-template-columns: repeat(3, auto);
