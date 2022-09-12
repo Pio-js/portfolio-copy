@@ -1,3 +1,5 @@
 #projects {
     position: relative;
+    padding: 20px;
+    box-sizing: border-box;
 }

@@ -8,7 +8,7 @@ export default function About(props) {
 
     useEffect(() => {
         titleRef.current.scrollIntoView({behavior: "smooth", block: "start"});
-    }, []);
+    });
 
     const title = props.data.about.title
     const about = props.data.about;

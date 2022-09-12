@@ -8,7 +8,7 @@ export default function Projects(props) {
 
     useEffect(() => {
         titleRef.current.scrollIntoView({behavior: "smooth", block: "start"});
-    }, []);
+    });
 
     return (
         <div ref={titleRef} id="projects">

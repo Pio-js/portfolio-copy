@@ -12,7 +12,7 @@ export default function Contact(props) {
 
     useEffect(() => {
         titleRef.current.scrollIntoView({behavior: "smooth", block: "start"});
-    }, []);
+    });
 
     const sendEmail = (e) => {
         e.preventDefault();

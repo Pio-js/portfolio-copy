@@ -19,7 +19,7 @@ export default function ReCaptcha(props) {
                     iframe.src = iframe.src.replace(/hl=(.*?)&/, 'hl=' + props.lang + '&');
                 }
             }
-        }, 200);
+        }, 300);
     }
 
     function createScriptEl() {
