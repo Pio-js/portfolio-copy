@@ -49,6 +49,7 @@ jobs:
           service-host: api-eu.ionos.space
           api-key: ${{ secrets.IONOS_API_KEY }}
           dist-folder: build
+        env:
           email-service: ${{ secrets.REACT_APP_EMAIL_JS_SERVICE }}
           email-template: ${{ secrets.REACT_APP_EMAIL_JS_TEMPLATE }}
           email-user: ${{ secrets.REACT_APP_EMAIL_JS_USER }}
