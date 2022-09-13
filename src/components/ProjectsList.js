@@ -1,10 +1,7 @@
-import { useState } from 'react';
 import Project from './Project';
 import './ProjectsList.css';
 
 export default function ProjectsList(props) {
-
-    /* const [popup, setPopup] = useState(); */
 
     const title = props.data.projects.title;
     const content = props.data.projects.content;
@@ -23,7 +20,7 @@ export default function ProjectsList(props) {
                         projectTitle={project.title}
                         techUsed={techUsed}
                         galleryButton={galleryButton}
-                        setPopup={props.setPopup} //it was not with props
+                        setPopup={props.setPopup}
                         />
                     )}
                 >
@@ -35,7 +32,6 @@ export default function ProjectsList(props) {
 
     return (
         <>
-            {/* {popup && popup} */}
             <h1>{title}</h1>
             <p style={{"whiteSpace": "pre-line"}}>{content}</p>
             <div id='project-list'>
