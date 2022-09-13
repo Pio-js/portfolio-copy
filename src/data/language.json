@@ -16,6 +16,7 @@
             "title": "Progetti",
             "content": "In questa sezione puoi trovare i progetti pi\u00F9 significativi a cui ho lavorato.\n\nIn futuro pubblicher\u00F2 qui i miei prossimi lavori.",
             "tech_used": "Tecnologia usata",
+            "image_slider_btn": "Clicca qui per vedere le immagini!",
             "projects_list": [
                 {
                     "title": "Mart",
@@ -67,6 +68,7 @@
             "title": "Projekte",
             "content": "Auf dieser Seite finden Sie die neuesten und wichtigsten Projekte, an denen ich gearbeitet habe.\n\nIn Zukunft werde ich hier meine nächsten Arbeiten veröffentlichen.",
             "tech_used": "verwendete Technologie",
+            "image_slider_btn": "Hier klicken, um die Bilder zu sehen!",
             "projects_list": [
                 {
                     "title": "Mart",
@@ -81,7 +83,6 @@
                 {
                     "title": "Sapori Alpe Adria",
                     "description": "Ich habe diese Website erstellt, um meine Präsenz im Internet zu gewährleisten und mein Geschäft zu fördern, italienische Feinkost auf den Berliner Märkten zu verkaufen.\n\nFür dieses Projekt habe ich Wordpress verwendet und das Design und den Inhalt erstellt. Diese Seite ist nicht mehr öffentlich.",
-                    "tech": ["wordpress", "html", "css"],
                     "preview": "../images/sapori_alpeadria/saa01.jpg"
                 }
                 
@@ -120,6 +121,7 @@
             "title": "Projects",
             "content": "In this section you can find the most significant projects I have worked on.\n\nIn the future I will publish my next works here.",
             "tech_used": "Tech used",
+            "image_slider_btn": "Click hier to see images!",
             "projects_list": [
                 {
                     "title": "Mart",

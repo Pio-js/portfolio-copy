@@ -1,8 +1,10 @@
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import ProjectsList from "../components/ProjectsList";
 import './Projects.css';
 
 export default function Projects(props) {
+
+    const [popup, setPopup] = useState();
 
     const titleRef = useRef();
 
@@ -11,8 +13,15 @@ export default function Projects(props) {
     });
 
     return (
-        <div ref={titleRef} id="projects">
-            <ProjectsList data={props.data} />
-        </div>
+        <>
+            <div ref={titleRef} id="projects">
+                {
+                    popup ?
+                    popup
+                    :
+                    <ProjectsList data={props.data} popup={popup} setPopup={setPopup} />
+                }
+            </div>
+        </>
     )
 }

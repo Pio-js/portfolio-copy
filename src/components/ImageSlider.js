@@ -1,7 +1,7 @@
 import { useState } from "react";
 import './ImageSlider.css'
 
-export default function ImageSlider ({ slides }) {
+export default function ImageSlider ({ slides, setIsImgSlider }) {
     
     const [touchPosition, setTouchPosition] = useState(null);
     const [current, setCurrent] = useState(0);
@@ -48,7 +48,7 @@ export default function ImageSlider ({ slides }) {
 
     let slider = slides.map((slide, index) => {
         return (
-            <div key={index}>
+            <div key={index} className='slide' >
                 {index === current && slide}
             </div>
         );
@@ -63,17 +63,16 @@ export default function ImageSlider ({ slides }) {
     });
 
     return (
-        <>
-            <div className='img-slider'>
-                {slides.length > 1 && <div className='gallery-left-arrow' onClick={prevSlide}></div>}
-                <div className="gallery-img-show" onTouchStart={handleTouchStart} onTouchMove={handleTouchMove}>
-                    <div className='slide-content'>
-                        <div id="dots-menu">{dots}</div>
-                        {slider}
-                    </div>
+        <div className='img-slider'>
+            <p className="img-slider-close" onClick={() => setIsImgSlider(false)}>X</p>
+            {slides.length > 1 && <div className='gallery-left-arrow' onClick={prevSlide}></div>}
+            <div className="gallery-img-show" onTouchStart={handleTouchStart} onTouchMove={handleTouchMove}>
+                <div className='slide-content'>
+                    <div id="dots-menu">{dots}</div>
+                    {slider}
                 </div>
-                {slides.length > 1 && <div className='gallery-right-arrow' onClick={nextSlide}></div>}
             </div>
-        </>
+            {slides.length > 1 && <div className='gallery-right-arrow' onClick={nextSlide}></div>}
+        </div>
     );
 };

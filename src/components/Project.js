@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import useOutsideClick from "./useOutsideClick";
 import ImageSlider from './ImageSlider';
 import projects from '../data/projects.json';
@@ -11,6 +11,12 @@ export default function Project(props) {
     useOutsideClick(ref, () => {
         props.setPopup();
     });
+
+    useEffect(() => {
+        ref.current.scrollIntoView({behavior: "smooth", block: "start"});
+    });
+
+    const [isImgSlider, setIsImgSlider] = useState(false);
 
     const projectSelected = props.projectsList.filter(project => project.title === props.projectTitle);
     const projectData = projects[props.projectTitle];
@@ -41,6 +47,7 @@ export default function Project(props) {
 
     return (
         <div className='project-popup' ref={ref}>
+            {isImgSlider && <ImageSlider slides={images} setIsImgSlider={setIsImgSlider} />}
             <div className='project-close-btn' onClick={() => props.setPopup()}>X</div>
             <h1>{projectSelected[0].title}</h1>
             <p style={{"whiteSpace": "pre-line"}}>{projectSelected[0].description}</p>
@@ -57,7 +64,10 @@ export default function Project(props) {
                     </div>
                 </div>
             }
-            <ImageSlider slides={images} />
+            <div  style={{"cursor": "pointer"}} onClick={() => setIsImgSlider(true)} className="project-img-slider-open">
+                <img src={`../images/me-clint-bw.png`} alt='click for images'/>
+                <p>{props.galleryButton}</p>
+            </div>
         </div>
     );
 }
