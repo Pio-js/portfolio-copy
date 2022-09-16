@@ -25,6 +25,7 @@ function App() {
   }, [width, breakpoint]);
 
   useEffect(() => {
+    document.documentElement.lang = lang;
     setData(language[lang]);
     // eslint-disable-next-line
   }, [lang]);
@@ -40,7 +41,7 @@ function App() {
             <Route path="tech" element = {<Tech lang={lang} data={data}/>} />
             <Route path="projects" element = {<Projects lang={lang} data={data}/>} />
             <Route path="contact" element = {<Contact lang={lang} data={data}/>} />
-            <Route path="impressum" element = {<Impressum lang={lang} data={data}/>} />
+            <Route path="impressum" element = {<Impressum />} />
           </Routes>
         </div>
       </main>
