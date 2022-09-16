@@ -24,13 +24,13 @@ export default function About(props) {
                 </>
             }
             <h2>{title}</h2>
-            <p style={{"whiteSpace": "pre-line"}}>{about.content1}</p>
+            <p lang={props.lang} style={{"whiteSpace": "pre-line"}}>{about.content1}</p>
             <Horse countries={countries}/>
-            <p style={{"whiteSpace": "pre-line"}}>{about.content2}</p>
+            <p lang={props.lang} style={{"whiteSpace": "pre-line"}}>{about.content2}</p>
 
-            <p style={{"whiteSpace": "pre-line"}}>{about.content3}</p>
-            <p style={{"whiteSpace": "pre-line"}}>{about.content4}</p>
-            <p style={{"whiteSpace": "pre-line"}}>{about.content5}</p>
+            <p lang={props.lang} style={{"whiteSpace": "pre-line"}}>{about.content3}</p>
+            <p lang={props.lang} style={{"whiteSpace": "pre-line"}}>{about.content4}</p>
+            <p lang={props.lang} style={{"whiteSpace": "pre-line"}}>{about.content5}</p>
         </div>
     )
 }

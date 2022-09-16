@@ -1,8 +1,16 @@
+import { useEffect, useRef } from 'react';
 import './Impressum.css';
 
 export default function Impressum() {
+
+    const titleRef = useRef();
+
+    useEffect(() => {
+        titleRef.current.scrollIntoView({behavior: "smooth", block: "start"});
+    });
+
     return (
-        <div id='impressum'>
+        <div id='impressum' ref={titleRef}>
             <div className='impressum-content'>
                 <h1>Impressum</h1>
                 <p>Angaben gemäß § 5 TMG</p>
