@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 export default function ReCaptcha(props) {
 
-    const recaptchaEl = <div className="g-recaptcha" data-sitekey="6LdK-MYhAAAAALiwrJXUw8OUQWYaA_qxF98-qj5J"></div>;
+    const recaptchaEl = <div className="g-recaptcha" data-sitekey="XXXXXXXXXXX"></div>;
 
     useEffect(() => {
         loadScript();
