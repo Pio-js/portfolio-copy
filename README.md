@@ -1,1 +1,1 @@
-## This is a simple application created with React JS
+## This is a simple portfolio application created with React JS
