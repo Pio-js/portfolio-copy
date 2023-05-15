@@ -16,7 +16,7 @@ export default function Contact(props) {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_8298tmn', 'template_qx8lnck', form.current, 'MtRz-U23T60Guqdmp')
+        emailjs.sendForm('serviceXXX', 'templateXXX', form.current, 'XXXXXX')
         .then((result) => {
             console.log(result.text);
             alert(successMessage)
