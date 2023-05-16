@@ -13,4 +13,6 @@ Data in the website are fetched from *Json* files. So you can change the content
 
 For the contant page I used a *third party service* and *Google reCAPTCHA*. If you want to use them you must subscribe to get your personal code.
 
-Feel free to fork it, pull it and change it.
+Feel free to fork it and change it.
+
+To work on it you need node.js installed in your machine. Commands: **npm install** for modules and **npm start** for browser preview.
