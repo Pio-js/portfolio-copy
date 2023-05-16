@@ -1,4 +1,4 @@
-### This is a copy of a simple portfolio application created with React JS
+### This is a copy of a simple portfolio application that I created with React JS
 
 You can see the deployed project at http://piosaija.eu
 
